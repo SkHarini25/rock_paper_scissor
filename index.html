@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<title>Rock Paper Scissors</title>
+<body>
+    <header><h1>LET'S PLAY ROCK PAPER SCISSORS</h1></header>
+    <div class="score">
+        <div  id="user-card" class="badge">USER</div>
+        <div  id="computer-card" class="badge">COMPUTER</div>
+        <center>
+        <span id="user-marks">0&nbsp;</span>&nbsp;:
+        <span id="computer-marks"> 0</span>
+    </center>  <!--since the score is in a single line we use span tag for line element-->
+
+    </div>
+    <div class="result">
+        <p>Paper covers rock. You Win!</p>
+    </div>
+    <div class="options">
+        <div class="choice" id="rock">
+            <img src="images/Rock.png" alt="">
+
+        </div>
+        <div class="choice" id="paper">
+            <img src="images/paper.png" alt="">
+
+        </div>
+        <div class="choice" id="scissors">
+            <img src="images/Scissors.png" alt="">
+
+        </div>
+    </div>
+    <p id="action_msg">Make your move</p>
+    <center>
+    <div class="end">
+        <input type="submit" value="END GAME" id="end" width="50px">
+    </div>
+</center>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEST SCORE:60</h3>
+
+    <script src="js/game.js" charset="utf-8"></script>
+</body>
+</html>
